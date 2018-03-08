@@ -1,0 +1,49 @@
+msgserver.MsgServer 2018-03-05 18:33:26  [ main:65 ] - [ DEBUG ]  消息服务器：启动客户端监听，端口号：8000
+io.netty.util.internal.logging.InternalLoggerFactory 2018-03-05 18:33:26  [ main:77 ] - [ DEBUG ]  Using Log4J as the default logging framework
+io.netty.channel.MultithreadEventLoopGroup 2018-03-05 18:33:26  [ main:83 ] - [ DEBUG ]  -Dio.netty.eventLoopThreads: 8
+io.netty.util.internal.PlatformDependent0 2018-03-05 18:33:26  [ main:131 ] - [ DEBUG ]  java.nio.Buffer.address: available
+io.netty.util.internal.PlatformDependent0 2018-03-05 18:33:26  [ main:134 ] - [ DEBUG ]  sun.misc.Unsafe.theUnsafe: available
+io.netty.util.internal.PlatformDependent0 2018-03-05 18:33:26  [ main:135 ] - [ DEBUG ]  sun.misc.Unsafe.copyMemory: available
+io.netty.util.internal.PlatformDependent0 2018-03-05 18:33:26  [ main:135 ] - [ DEBUG ]  direct buffer constructor: available
+io.netty.util.internal.PlatformDependent0 2018-03-05 18:33:26  [ main:136 ] - [ DEBUG ]  java.nio.Bits.unaligned: available, true
+io.netty.util.internal.PlatformDependent0 2018-03-05 18:33:26  [ main:136 ] - [ DEBUG ]  java.nio.DirectByteBuffer.<init>(long, int): available
+io.netty.util.internal.Cleaner0 2018-03-05 18:33:26  [ main:138 ] - [ DEBUG ]  java.nio.ByteBuffer.cleaner(): available
+io.netty.util.internal.PlatformDependent 2018-03-05 18:33:26  [ main:138 ] - [ DEBUG ]  Platform: Windows
+io.netty.util.internal.PlatformDependent 2018-03-05 18:33:26  [ main:139 ] - [ DEBUG ]  Java version: 7
+io.netty.util.internal.PlatformDependent 2018-03-05 18:33:26  [ main:139 ] - [ DEBUG ]  -Dio.netty.noUnsafe: false
+io.netty.util.internal.PlatformDependent 2018-03-05 18:33:26  [ main:139 ] - [ DEBUG ]  sun.misc.Unsafe: available
+io.netty.util.internal.PlatformDependent 2018-03-05 18:33:26  [ main:139 ] - [ DEBUG ]  -Dio.netty.noJavassist: false
+io.netty.util.internal.PlatformDependent 2018-03-05 18:33:26  [ main:140 ] - [ DEBUG ]  Javassist: unavailable
+io.netty.util.internal.PlatformDependent 2018-03-05 18:33:26  [ main:142 ] - [ DEBUG ]  You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.
+io.netty.util.internal.PlatformDependent 2018-03-05 18:33:26  [ main:142 ] - [ DEBUG ]  -Dio.netty.tmpdir: C:\Users\lenovo\AppData\Local\Temp (java.io.tmpdir)
+io.netty.util.internal.PlatformDependent 2018-03-05 18:33:26  [ main:142 ] - [ DEBUG ]  -Dio.netty.bitMode: 64 (sun.arch.data.model)
+io.netty.util.internal.PlatformDependent 2018-03-05 18:33:26  [ main:142 ] - [ DEBUG ]  -Dio.netty.noPreferDirect: false
+io.netty.util.internal.PlatformDependent 2018-03-05 18:33:26  [ main:143 ] - [ DEBUG ]  io.netty.maxDirectMemory: 1890582528 bytes
+io.netty.channel.nio.NioEventLoop 2018-03-05 18:33:26  [ main:172 ] - [ DEBUG ]  -Dio.netty.noKeySetOptimization: false
+io.netty.channel.nio.NioEventLoop 2018-03-05 18:33:26  [ main:172 ] - [ DEBUG ]  -Dio.netty.selectorAutoRebuildThreshold: 512
+io.netty.util.internal.PlatformDependent 2018-03-05 18:33:26  [ main:174 ] - [ DEBUG ]  org.jctools-core.MpscChunkedArrayQueue: available
+io.netty.channel.DefaultChannelId 2018-03-05 18:33:27  [ main:1842 ] - [ DEBUG ]  -Dio.netty.processId: 16080 (auto-detected)
+io.netty.util.NetUtil 2018-03-05 18:33:27  [ main:1844 ] - [ DEBUG ]  -Djava.net.preferIPv4Stack: false
+io.netty.util.NetUtil 2018-03-05 18:33:27  [ main:1844 ] - [ DEBUG ]  -Djava.net.preferIPv6Addresses: false
+io.netty.util.NetUtil 2018-03-05 18:33:28  [ main:1928 ] - [ DEBUG ]  Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+io.netty.util.NetUtil 2018-03-05 18:33:28  [ main:1929 ] - [ DEBUG ]  \proc\sys\net\core\somaxconn: 200 (non-existent)
+io.netty.channel.DefaultChannelId 2018-03-05 18:33:28  [ main:2046 ] - [ DEBUG ]  -Dio.netty.machineId: 50:7b:9d:ff:fe:03:c6:6d (auto-detected)
+io.netty.util.internal.ThreadLocalRandom 2018-03-05 18:33:28  [ main:2047 ] - [ DEBUG ]  -Dio.netty.initialSeedUniquifier: 0x7f6912e47c7742ee
+io.netty.util.ResourceLeakDetector 2018-03-05 18:33:28  [ main:2062 ] - [ DEBUG ]  -Dio.netty.leakDetection.level: simple
+io.netty.util.ResourceLeakDetector 2018-03-05 18:33:28  [ main:2063 ] - [ DEBUG ]  -Dio.netty.leakDetection.maxRecords: 4
+io.netty.buffer.PooledByteBufAllocator 2018-03-05 18:33:28  [ main:2091 ] - [ DEBUG ]  -Dio.netty.allocator.numHeapArenas: 8
+io.netty.buffer.PooledByteBufAllocator 2018-03-05 18:33:28  [ main:2091 ] - [ DEBUG ]  -Dio.netty.allocator.numDirectArenas: 8
+io.netty.buffer.PooledByteBufAllocator 2018-03-05 18:33:28  [ main:2091 ] - [ DEBUG ]  -Dio.netty.allocator.pageSize: 8192
+io.netty.buffer.PooledByteBufAllocator 2018-03-05 18:33:28  [ main:2091 ] - [ DEBUG ]  -Dio.netty.allocator.maxOrder: 11
+io.netty.buffer.PooledByteBufAllocator 2018-03-05 18:33:28  [ main:2091 ] - [ DEBUG ]  -Dio.netty.allocator.chunkSize: 16777216
+io.netty.buffer.PooledByteBufAllocator 2018-03-05 18:33:28  [ main:2092 ] - [ DEBUG ]  -Dio.netty.allocator.tinyCacheSize: 512
+io.netty.buffer.PooledByteBufAllocator 2018-03-05 18:33:28  [ main:2092 ] - [ DEBUG ]  -Dio.netty.allocator.smallCacheSize: 256
+io.netty.buffer.PooledByteBufAllocator 2018-03-05 18:33:28  [ main:2092 ] - [ DEBUG ]  -Dio.netty.allocator.normalCacheSize: 64
+io.netty.buffer.PooledByteBufAllocator 2018-03-05 18:33:28  [ main:2092 ] - [ DEBUG ]  -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+io.netty.buffer.PooledByteBufAllocator 2018-03-05 18:33:28  [ main:2092 ] - [ DEBUG ]  -Dio.netty.allocator.cacheTrimInterval: 8192
+io.netty.buffer.ByteBufUtil 2018-03-05 18:33:28  [ main:2102 ] - [ DEBUG ]  -Dio.netty.allocator.type: pooled
+io.netty.buffer.ByteBufUtil 2018-03-05 18:33:28  [ main:2103 ] - [ DEBUG ]  -Dio.netty.threadLocalDirectBufferSize: 65536
+io.netty.buffer.ByteBufUtil 2018-03-05 18:33:28  [ main:2103 ] - [ DEBUG ]  -Dio.netty.maxThreadLocalCharBufferSize: 16384
+io.netty.handler.logging.LoggingHandler 2018-03-05 18:33:28  [ nioEventLoopGroup-2-1:2127 ] - [ INFO ]  [id: 0x8afafb19] REGISTERED
+io.netty.handler.logging.LoggingHandler 2018-03-05 18:33:28  [ nioEventLoopGroup-2-1:2129 ] - [ INFO ]  [id: 0x8afafb19] BIND: 0.0.0.0/0.0.0.0:8000
+io.netty.handler.logging.LoggingHandler 2018-03-05 18:33:28  [ nioEventLoopGroup-2-1:2131 ] - [ INFO ]  [id: 0x8afafb19, L:/0:0:0:0:0:0:0:0:8000] ACTIVE
