@@ -18,7 +18,7 @@ public class CMsgServerOutBaseHandler extends ChannelOutboundHandlerAdapter {
     private static org.apache.log4j.Logger logger = Logger.getLogger(CMsgServerOutBaseHandler.class);
     @Override
     public void write(ChannelHandlerContext ctx, Object msg, ChannelPromise promise) throws Exception {
-        String currentTime = new Date(System.currentTimeMillis()).toString();
+        String currentTime = new Date(System.currentTimeMillis()).toString()+msg;
         ByteBuf resp = Unpooled.copiedBuffer(currentTime.getBytes());
         ctx.writeAndFlush(resp).addListener(new ChannelFutureListener(){
             @Override
